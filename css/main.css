@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  background: #f2f2f2;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container {
+  max-width: 920px;
+  margin: 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+body .container .column {
+  padding: 4.8rem;
+}
+
+body .container .column h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 4.1rem;
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 3.2rem 0;
+  color: #f2f2f2;
+}
+
+body .container .column p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body .container .column button {
+  font-family: 'Lexend Deca', sans-serif;
+  margin-top: 8.6rem;
+  background-color: #f2f2f2;
+  height: 4.8rem;
+  width: 14.4rem;
+  border-radius: 100vw;
+  border: 2px solid #f2f2f2;
+  font-size: 1.5rem;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+body .container .column button:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+body .container .sedan {
+  background: #e38826;
+}
+
+body .container .sedan button {
+  color: #e38826;
+}
+
+body .container .suv {
+  background: #006970;
+}
+
+body .container .suv button {
+  color: #006970;
+}
+
+body .container .luxury {
+  background: #004241;
+}
+
+body .container .luxury button {
+  color: #004241;
+}
+
+@media (max-width: 59em) {
+  body .container {
+    max-width: 520px;
+    margin: 10rem 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body .container .column button {
+    margin-top: 3rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
